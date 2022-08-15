@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid black; */
+}
+
+
+
+.leftnav{
+    display: inline-block;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    
+}
+
+.rightnav{
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    
+}
+
+
+ 
+#apps{
+    width: 28px;
+    vertical-align: middle;
+    opacity: .5;
+}
+
+#apps:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+    
+
+
+
+nav a{
+    text-decoration: none;
+    color: rgb(94, 92, 92);;
+    font-size: 12px;
+    padding: .6rem;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+#buttonsign{
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: .4rem;
+    width: 4.1rem;
+    margin-left: .6rem;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+#buttonsign:hover{
+    cursor: pointer;
+}
+
+main{
+    text-align: center;
+    padding-top: 14rem ;
+}
+
+#google{
+    width: 16rem;
+    margin-bottom: 1rem;
+}
+
+#searchbar{
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 20px;
+    width: 29rem;
+    height: 2.6rem;
+    margin: auto;
+    position: relative;
+
+}
+
+#searchbar:hover{
+    box-shadow: 3px 3px 5px rgb(187, 187, 187);
+}
+
+#glass{
+    position: absolute;
+    left: 19px;
+    top: 7px;
+    opacity: .9;
+}
+
+#mic{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+
+#search{
+    width: 80%;
+    height: 100%;
+    border: none;
+}
+
+#search:focus{
+    outline: none;
+}
+
+.buttons{
+    margin-top: 1.1rem;
+    margin-bottom: .7rem;
+    margin-left: -.7rem;
+}
+
+#button1{
+    margin: .6rem;
+    width: 7rem;
+    height: 2rem;
+    border: none;
+    border-radius: 3px;
+    color: rgb(109, 109, 109);
+    font-size: 12px;
+}
+
+#button1:hover{
+    cursor: pointer;
+    box-shadow: .5px .5px 1px 1px rgb(191, 191, 191);
+    color: black;
+}
+
+#button2{
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    border-radius: 3px;
+    color: rgb(109, 109, 109);
+    font-size: 12px;
+}
+
+#button2:hover{
+    cursor: pointer;
+    box-shadow: .5px .5px 1px 1px rgb(191, 191, 191);
+    color: black;
+}
+
+main p{
+    font-size: 12px;
+    color: rgb(79, 78, 78);
+}
